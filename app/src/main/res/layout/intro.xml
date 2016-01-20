@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/story_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:textSize="20sp"
+        android:paddingTop="5dp"
+        android:text="Loading"
+        />
+    <ImageView
+        android:id="@+id/story_img"
+        android:layout_width="50dp"
+        android:layout_height="366dp"
+        android:layout_gravity="center"
+        android:src="@drawable/gear"
+        android:layout_weight="1.21" />
+</LinearLayout>
